@@ -1,47 +1,40 @@
-# DESIGN-OF-INVERTING AMPLIFIER
-## AIM:
-To design and construct a inverting amplifier.
+# SIMULATION-OF-INVERTING-NON--INVERTING-AND-DIFFERENTIAL-AMPLIFIER
 
-## APPARATUS REQUIRED:
-<img width="768" height="213" alt="image" src="https://github.com/user-attachments/assets/d2a172d2-abb8-4930-8db5-78338f0486fe" />
-
-## THEORY:
-Op-amp in open-loop configuration has a very few application because of its enormous open-loop gain. Controlled gain can be can be achieved by taking a part of output signal to the input with the help of feedback. This is called as Closed- Loop Configuration. The three basic types of closed-loop amplifier configuration are:
-1. Inverting amplifier.
-2. Non-inverting amplifier.
-3. Differential amplifier.
-The entire configuration can be operated with either AC or DC input.
-INVERTING AMPLIFIER:
-This is the most widely used op-amp. Here, the output voltage Vo is feedback to the inverting input terminal through the Rf – R1 network. The negative sign in gain indicates the phase shift of 180ο.
-The circuit closed-loop voltage gain is Avcl= -RF / R1
-
-## DESIGN:
-Inverting amplifier:
-A = -Rf/R1
-Take A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
-
-## CIRCUIT DIAGRAM
-<img width="674" height="338" alt="image" src="https://github.com/user-attachments/assets/a1c35782-2787-4a3d-994a-6ed78afcafb5" />
-
+## AIM: 
+To Design and simulate a inverting, non- inverting and differential amplifiers using LT-Spice.
+SOFTWARE REQUIRED: 
+                         LT-Spice
 ## PROCEDURE:
-Inverting amplifier:
-1. Select R1 as a constant value and choose a value of Rf.
-2. Connect the circuit as per as the circuit diagram.
-3. Apply the constant amplitude input voltage to the circuit.
-4. Measure the output voltage amplitude for different value of V1 from DSO.
-5. Calculate the practical Voltage for different value of V1& compare it with theoretical output.
-6. Practical gain & theoretical voltage should be approximately equal.
-7. Plot the graph of the input wave versus output wave for any one practical case.
+1.	Double click on LT-Spice icon.
+2.	New schematic window open.
+3.	Pick and paste the required component from the library and draw the circuit diagram.
+4.	Complete the connection.
+5.	Save the file by giving file name.
+6.	Click on the run option ->click advanced open ->select Ac analysis->enter the amplitude time delay stop time value.
+7. Click on the run option ->simulation window opens->place the probe ->output graph is obtained. 
 
-## MODEL GRAPH:
-<img width="368" height="284" alt="image" src="https://github.com/user-attachments/assets/d2081f1e-57d1-4cd0-b59a-5ebb4115733d" />
+## CIRCUIT DIAGRAM: Inverting amplifier: 
+<img width="1174" height="905" alt="image" src="https://github.com/user-attachments/assets/91cb3db7-9d05-4fce-8bc9-21782ff92282" />
 
-## TABULATION:
+## GRAPH: Inverting amplifier: 
+<img width="946" height="441" alt="image" src="https://github.com/user-attachments/assets/115711a9-32e5-47b5-8393-e0dd0bf90f55" />
 
 
-## GRAPH:
+## CIRCUIT DIAGRAM: Non inverting amplifier:
+<img width="932" height="609" alt="image" src="https://github.com/user-attachments/assets/c678c132-820c-4007-a4e1-60bb32484d2e" />
+
+
+## GRAPH: Non inverting amplifier:
+<img width="961" height="437" alt="image" src="https://github.com/user-attachments/assets/62e9c6a5-3cd4-418a-9a17-5d8faf7d57b7" />
+
+
+## CIRCUIT DIAGRAM: Differential amplifier: 
+<img width="961" height="508" alt="image" src="https://github.com/user-attachments/assets/885fcd97-fa90-478b-b498-0dc64d8fb87f" />
+
+
+## GRAPH: Differential amplifier:
+<img width="773" height="379" alt="image" src="https://github.com/user-attachments/assets/b2261fb9-36ab-4650-b8e1-41589442fc53" />
 
 
 ## RESULT:
+Thus the LT Spice tool has been studied and non-inverting ,inverting,differential amplifier circuit is stimulated.
